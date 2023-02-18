@@ -7,10 +7,10 @@ resources:
 - 00_quay-namespace.yaml
 - 01_openshift-local-storage-og.yaml
 - 02_local-storage-operator-subscription.yaml
-- 02_quay-operator.subscription.yaml
 - 02_quay-bridge_subscription.yaml
+- 02_quay-operator.subscription.yaml
 - 03_noobaa.yaml
 - 04_noobaa-pv-backing-store.yaml
 - 05_quay-registry.yaml
-- 05_quay-registry_secret.yaml
-- 06_quay-bridge.yaml
+#- 06_quay-bridge-secret_creation.yaml
+#- 07_quay-bridge.yaml
