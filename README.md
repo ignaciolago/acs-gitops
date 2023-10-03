@@ -185,6 +185,12 @@ eksctl create cluster --name my-cluster --region eu-west-1 --version 1.27
 
 ### We get the context to log in to the cluster:
 
+aws sts get-caller-identity
+
+aws eks --region example_region update-kubeconfig --name cluster_name
+
+OR
+
 oc config get-contexts 
 
 oc config use-context open-environment-hkmjg-admin@my-cluster.eu-west-1.eksctl.io
