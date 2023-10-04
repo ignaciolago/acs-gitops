@@ -3,11 +3,11 @@ kind: Kustomization
 commonAnnotations:
   argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 resources:
-- 00-acm-namespace.yaml
-- 01-acm-operatorgroup.yaml
-- 02-acm-subscription.yaml
-- 03-acm-multiclusterhub.yaml
-- 04-acm-managedclusterset.yaml
-- 05-acm-managedclustersetbinding.yaml
-- 05-acm-placement.yaml
-- 06-acm-gitopscluster.yaml
+- 00_acm-namespace.yaml
+- 01_acm-operatorgroup.yaml
+- 02_acm-subscription.yaml
+- 03_acm-multiclusterhub.yaml
+- 04_acm-managedclusterset.yaml
+- 05_acm-managedclustersetbinding.yaml
+- 05_acm-placement.yaml
+- 06_acm-gitopscluster.yaml
