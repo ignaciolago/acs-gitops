@@ -13,4 +13,4 @@ spec:
   name: advanced-cluster-management
   source: redhat-operators
   sourceNamespace: openshift-marketplace
-  startingCSV: advanced-cluster-management.v2.7.1
+#  startingCSV: advanced-cluster-management.v2.7.1
