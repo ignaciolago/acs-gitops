@@ -159,22 +159,9 @@ spec:
 ## Install EKS cluster
 ### Pre-Requisites:
 
-export AWSKEY= <YOURACCESSKEY>
+aws configure
 
-export AWSSECRETKEY= <YOURSECRETKEY>
-
-export REGION= eu-west-1
-
-mkdir $HOME/.aws
-
-cat << EOF >> $HOME/.aws/credentials
-
-[default]
-aws_access_key_id = ${AWSKEY}
-aws_secret_access_key = ${AWSSECRETKEY}
-region = $REGION
-
-EOF
+### Then we enter the value
 
 aws sts get-caller-identity 
 
